@@ -32,33 +32,36 @@ Artificial Intelligence Project
 - For Preprocessing, firstly, the data as headlines is filtered with quotations, exclamation marks and questions then it is transformed into sufixed versions and lowercase letters. Then data is split into a train and test set which are used to create a model and test the model. After testing the model, a confusion matrix is generated and output is presented in visual presentation denoting accuracy, error, precision and recall.
 - For Naive Bayes, a given equation is implemented where x is a vectorised processed word dataset and output is binary of sarcasm detected or not detected.
 
-![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.001.png)
+![001](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/2d522335-b030-4524-8091-9b63fed3ebba)
+
 
 - For logistic regression, sigmoid activation function is implemented where layer input is calculated of theta and input which is served to calculate the cost between predicted output and output. Using cost and learning rate theta is updated until given iterations.
 
-![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.002.png)
+![002](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/165c524e-da60-4aba-b23b-de38a156eb2d)
 
 **Analysis:**
 
 - Naive Bayes accuracy graph
 
-![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.003.png)
+![003](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/20e2be76-7f0c-436c-a4d5-9c427aa1b8f0)
 
 - Naive Bayes Error graph
 
-![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.004.png)
+![004](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/02832056-79bb-46ed-85a4-eb81c9dedb0b)
 
 - Naive Bayes Precision graph
 
-![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.005.png)
+![005](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/35481c1b-dff5-46dc-bc28-59bdf79d9008)
 
 - Naive Bayes recall graph
 
-![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.006.png)
+![006](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/cd3496e0-d7e2-46b1-8433-c2952258d828)
 
 - For Naive Bayes, maximum accuracy was gained using 1300 max vectors with an accuracy of 71%, error rate of 29%, precision of 68% and recall of 77%.
 - For Logistic regression, we achieved accuracy of 80%, 20% error rate, 88% precision and 78% recall.
-- ![](Aspose.Words.26fbadce-f98a-447b-a882-21ccef8b27d6.007.png)
+
+![007](https://github.com/arpanraj/Sarcasm-Detection-Natural-Language-Processing/assets/38219415/48b1f8ee-dc8e-4f94-b2cf-8f3f3114a2b7)
+
 - For logistic regression, confusion matrix can be seen above
 - From analysis we can see that logistic regression gives more accurate results where accuracy increased by 9%.
 
